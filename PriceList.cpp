@@ -10,7 +10,7 @@ int main()
     for (int i = 0; i < items.size(); i++)
     {
         //std::cout << prices[(int)items[i]] << std::endl;
-        totalCost += prices[(int)items[i]];
+        totalCost += prices[items[i]];
     }
 
     std::cout << "Total cost of purchases:" << totalCost << std::endl;
